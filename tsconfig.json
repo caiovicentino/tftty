@@ -1,0 +1,23 @@
+// Complete code implementation here
+// Do NOT use placeholders, TODOs, or "implementation here" comments
+// Write the FULL working code
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "prisma/seed.ts"],
+  "exclude": ["node_modules", "dist", "tests"]
+}
